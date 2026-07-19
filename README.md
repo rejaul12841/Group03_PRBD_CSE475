@@ -25,18 +25,25 @@
 **Rice Variety Classification from Microscopic Images using CNN with Attention**
 
 ## Repository Structure
+
+```
 Group03_PRBD_CSE475/
-README.md
-report/
-task1/
-Group03_PRBD_task1_report.pdf
-code/
-task1/
-Group03_PRBD_task1_eda.ipynb
-related_work/
-Group03_PRBD_related_work_table.pdf
-papers/
-(5 cited paper PDFs)
+├── README.md
+├── report/
+│   └── task1/
+│       └── Group03_PRBD_task1_report.pdf
+├── code/
+│   └── task1/
+│       └── Group03_PRBD_task1_eda.ipynb
+└── related_work/
+    ├── Group03_PRBD_related_work_table.pdf
+    └── papers/
+        ├── Enhancing agricultural research with an Attention-Based Hybrid Model.pdf
+        ├── Identification of Maize Seed Varieties Using MobileNetV2 with Improved Attention Mechanism CBAM.pdf
+        ├── Multi-class rice seed recognition based on deep space attention.pdf
+        ├── Real-time segmentation and phenotypic analysis of rice.pdf
+        └── RiceSeedNet.pdf
+```
 
 ## Task 1 Summary — Exploratory Data Analysis
 - Confirmed 2000 images across 10 balanced classes (200 each, 1:1 ratio)
