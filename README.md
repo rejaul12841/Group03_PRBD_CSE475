@@ -50,14 +50,14 @@ Group03_PRBD_CSE475/
         └── RiceSeedNet.pdf
 ```
 
-## Task 1 Summary — Exploratory Data Analysis
+## Task 1 Summary - Exploratory Data Analysis
 - Confirmed 2000 images across 10 balanced classes (200 each, 1:1 ratio)
 - Uniform image resolution: 640×480 pixels (no distortion risk when resized to 224×224)
 - Brightness/colour distributions overlap heavily across classes → colour is not a usable shortcut feature, supporting the use of an attention mechanism
 - No corrupt files or exact duplicates found; a few blurry images flagged (Katari Najir, BR-29, Swarna) for manual review
 - Visual similarity noted between Beroi, Katari Najir, and Katari Siddho (likely confusion pairs); Beroi and Aush show a reddish/brown husk residue that may act as an unintended shortcut, to be checked with Grad-CAM in Task 3
 
-## Task 2 Summary — Baselines + Proposed Attention Model
+## Task 2 Summary - Baselines + Proposed Attention Model
 - Leakage-free, class-stratified 70/10/20 train/val/test split built once on `Original_Images` only (400 held-out test images, 40 per class) and reused identically across both notebooks
 - 4 representative baselines trained and evaluated: Simple CNN (from scratch), ResNet50, MobileNetV2, EfficientNet-B0 — full metric set reported (accuracy, macro/weighted precision-recall-F1, macro ROC-AUC, confusion matrix, ROC/PR curves, training time, inference time, parameter count, model size)
 - **ResNet50** is the strongest baseline (Macro-F1 = 0.9625), narrowly ahead of MobileNetV2 (0.9622); both clearly outperform the from-scratch Simple CNN (0.8898)
@@ -66,13 +66,13 @@ Group03_PRBD_CSE475/
 
 ## How to Run
 
-### Task 1 — EDA
+### Task 1 - EDA
 1. Clone the repository
 2. Open `code/task1/Group03_PRBD_task1_eda.ipynb` in Jupyter/Colab
 3. Download the PRBD dataset from Mendeley Data and update the dataset path in the notebook
 4. Run all cells to reproduce the EDA (class balance, sample grid, resolution check, pixel/colour analysis, image quality check)
 
-### Task 2 — Baselines + Proposed Model
+### Task 2 - Baselines + Proposed Model
 1. Download the PRBD dataset from Mendeley Data and update the dataset path
 2. Open and run `code/task2/Group03_PRBD_task2_baselines.ipynb` first — this builds and saves the leakage-free 70/10/20 split, then trains and evaluates all 4 baselines
 3. Open and run `code/task2/Group03_PRBD_task2_proposed_model.ipynb` — this loads the same saved split and trains/evaluates the proposed ResNet50+CBAM model
