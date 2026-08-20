@@ -51,9 +51,6 @@ Group03_PRBD_CSE475/
 │   │   └── Group03_PRBD_task3_explainability.ipynb
 │   └── GNN/
 │       └── Group03_PRBD_GNN.ipynb                 
-├── models/
-│   ├── Group03_PRBD_final_model_best.pth
-│   └── label_map.json
 └── related_work/
     ├── Group03_PRBD_related_work_table.pdf
     └── papers/
