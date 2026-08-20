@@ -34,6 +34,8 @@ Group03_PRBD_CSE475/
 │   │   └── Group03_PRBD_task1_report.pdf
 │   ├── task2/
 │   │   └── Group03_PRBD_task2_report.pdf
+│   ├── GNN/ 
+│   │   └── Group03_PRBD_GNN_report.pdf
 │   └── task3/
 │   │    └── Group03_PRBD_task3_report.pdf
 │   └──  Final Report/
@@ -47,7 +49,7 @@ Group03_PRBD_CSE475/
 │   ├── task3/
 │   │   ├── Group03_PRBD_task3_improvement_ablation.ipynb
 │   │   └── Group03_PRBD_task3_explainability.ipynb
-│   └── extra_gnn/
+│   └── GNN/
 │       └── Group03_PRBD_GNN.ipynb                 
 ├── models/
 │   ├── Group03_PRBD_final_model_best.pth
