@@ -218,7 +218,7 @@ Full metrics, confusion matrices, ROC/PR curves, architecture diagram, and CBAM 
 | Model | Accuracy | Macro-F1 |
 |---|---|---|
 | ResNet50 baseline (reproduced) | 0.9550 | 0.9547 |
-| ResNet50 + CBAM (Task 2 first model) | – | 0.9548 |
+| ResNet50 + CBAM (Task 2 first model) | 0.9550 | 0.9548 |
 | **ResNet50 + CBAM (Task 3 final model)** | **0.9650** | **0.9650** |
 
 5-fold CV: 0.9697 ± 0.0113 vs. baseline 0.9418 ± 0.0104 (paired t-test p = 0.0133,
