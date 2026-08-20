@@ -133,7 +133,7 @@ not Beat, on the strictest comparison).
 - Combined 2×4 panel (`combined_gradcam_lime_correct_vs_wrong.png`) and an auto-written
   findings file (`task3_explainability_findings.md`) produced for the report
 
-## Extra Exploration — Graph Neural Networks (GCN / GATv2)
+## Graph Neural Networks (GCN / GATv2)
 
 *This section is exploratory work carried out on the course instructor's suggestion.
 It is not part of the graded Track 3 (CNN + Attention) deliverable — the official
@@ -223,8 +223,8 @@ Full metrics, confusion matrices, ROC/PR curves, architecture diagram, and CBAM 
 significant). Full ablation tables, CV/significance results, Grad-CAM and LIME figures
 are in `report/task3/Group03_PRBD_task3_report.pdf`.
 
-### Extra - GNN Exploration
-GATv2 reached 0.9726 test Macro-F1 vs. 0.9702 for the ResNet50 CNN baseline — numerically
-ahead but not statistically significant (Wilcoxon p = 0.0625) — with ~217× fewer
+### GNN Exploration
+GATv2 reached 0.9726 test Macro-F1 vs. 0.9702 for the ResNet50 CNN baseline - numerically
+ahead but not statistically significant (Wilcoxon p = 0.0625) - with ~217× fewer
 parameters and ~40× faster inference. See `code/extra_gnn/Group03_PRBD_GNN.ipynb` for
 the full pipeline and honest-reading discussion.
